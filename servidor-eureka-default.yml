@@ -1,9 +1,9 @@
 # HTTP Server
 server:
-    port: 8761
+  port: 8761
 
-# Discovery Server Access
+# Eureka Server
 eureka:
-	client:
-		register-with-eureka: false
-		fetch-registry: false
+  client:
+    register-with-eureka: false
+    fetch-registry: false
