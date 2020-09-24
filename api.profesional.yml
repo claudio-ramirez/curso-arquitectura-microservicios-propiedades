@@ -10,15 +10,9 @@ eureka:
       app-owner: cramirez
       description: API generada para el curso de arquitectura de microservicios
 
-# HTTP Server
-server:
-  port: 2222
-
 # Spring Boot
 spring:
   jpa:
-    hibernate:
-      ddl-auto: create
     properties:
       hibernate:
         default_schema: apiprofesional
